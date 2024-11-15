@@ -1,0 +1,74 @@
+
+.dashboard { font-family: 'Arial', sans-serif; 
+ 
+
+   padding: 20px; 
+   border-radius: 10px;
+   box-Shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 750px; margin: auto;
+  
+    background-color: #fff,
+    color #333;
+    
+    max-width: 600px;
+  font-family: 'Times New Roman', Times, serif;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+  
+  
+  }
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.bar-chart {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  color: #fc9724af;
+  padding-right: 300px;
+}
+
+.image-flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px; /* Added gap between images */
+  margin: 20px 0;
+  border-radius: 50%;
+}
+
+.carousel-image {
+  width: 150px; /* Increased size of images */
+  height: 150px;
+  object-fit: cover;
+  border-radius:50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image:hover {
+  transform: scale(1.05);
+}
+
+
+.table { 
+       border-bottom: 1px solid #ddd; }
+        .table th { background-color: #ffe9a3;
+           color: #333; /* Ensure text color contrast */ }
+
+
+h6{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.chart-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
